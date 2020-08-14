@@ -1,0 +1,34 @@
+<body>
+    <div>
+        <br><br>
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/mealpackages">Meals </a></li>
+            <li class="active">Value</li>
+        </ol>
+    </div>
+    <section id="build">
+        <div class="row">
+            <img src="/img/Plans/plan12.jpg" alt="..." class="mealImg">
+        </div>
+        <div>
+            <h3 class="mealName"> Value Package </h3>
+            <h6 class="price">$96.00</h6>
+            <p class="desc1">A chef's choice selection of all of our best-selling Value meals! We pack nutrient-rich
+                ingredients into each Value meal, all with recipes from our best-selling mainline meals. </p>
+            <p class="desc2">This package is PERFECT for students, those wanting to trial what we do, or anyone looking
+                to eat healthy for less! A Value meal is a leaned-down version of our mainline meals, typically
+                containing less protein, increased base or both. Deliciousness for less - win, win!</p>
+            <br><br>
+            <form method="POST" action="/cart" class="options">
+                <p class="numMeals">How many meals did you want in your package?</p>
+                <select name="numMeals" id="numMeals">
+                    <option value="21">One week - 21</option>
+                    <option value="42">Two weeks - 42</option>
+                </select><br><br>
+
+                <input type="submit" value="ADD TO ORDER" class="buttonpink">
+            </form>
+        </div>
+    </section>
+</body>

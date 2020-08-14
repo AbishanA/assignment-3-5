@@ -1,0 +1,15 @@
+<div>
+    <h1> Login </h1><br>
+    {{#if errorMsg}}
+        <h5 id="error">{{errorMsg}}</h5>
+    {{else}}
+        <h5 id="invalid">Please login below</h5>
+    {{/if}}
+    <form method="POST" action="./login">
+        <label for="email"> Email </label><br>
+        <input type="email" id="emaillogin" placeholder="Email Address" name="mail"><br><br>
+        <label for="password"> Password </label><br>
+        <input type="password" id="passwordlogin" placeholder="Password" name="pass"><br><br>
+        <input type="submit" value="Login" class="buttonpink">
+    </form>
+</div>

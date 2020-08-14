@@ -1,0 +1,67 @@
+<body>
+    <div>
+        <br><br>
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/mealpackages">Meals </a></li>
+            <li class="active">Fat Burner</li>
+        </ol>
+    </div>
+    <section id="build">
+        <div class="row">
+            <img src="/img/Plans/plan4.jpg" alt="..." class="mealImg">
+        </div>
+        <div>
+            <h3 class="mealName"> Fat Burner Package </h3>
+            <h6 class="price">$159.00</h6>
+            <p class="desc1">This package comes with a variety of our best selling meals
+                from the Lunch &amp; Dinner menu. Each meal has been properly portion
+                controlled to help you lose weight! The longer you stick with it, the
+                better the results will get.</p>
+            <p class="desc2">✓ Low Cals &amp; High Protein- Most of the weight loss meals
+                are under 500 calories, and packed with protein to support weight loss.</p>
+            <p class="desc3">✓ Super Foods - Nutrient-rich ingredients beneficial for health
+                and well-being. </p>
+            <p class="desc4">✓ Lose weight, improve your health and have more energy!</p>
+            <p class="desc5">**Exercise and proper diet are necessary to achieve and maintain
+                weight loss. Results vary depending upon starting point, goals, and effort.**</p><br><br>
+            <form method="POST" action="/cart" class="options">
+                <p class="numMeals">How many meals did you want in your package?</p>
+                <select name="numMeals" id="numMeals">
+                    <option value="10">10 Meals</option>
+                    <option value="12">12 Meals</option>
+                    <option value="15">15 Meals</option>
+                    <option value="20">20 Meals</option>
+                    <option value="24">24 Meals</option>
+                </select><br><br>
+                <p class="numSoups">Do you want to add soups to your package?</p>
+                <select name="numSoups" id="numSoups">
+                    <option value="0">No Thanks!</option>
+                    <option value="1">1 Soup</option>
+                    <option value="2">2 Soups</option>
+                    <option value="3">3 Soups</option>
+                </select><br><br>
+                <p class="mealoption"> What would you like to see in your package?</p>
+                {{!-- 1st ROW --}}
+                <input type="checkbox" name="plate1">
+                <label for="plate1"> Chicken Teriyaki </label><br>
+                <input type="checkbox" name="plate2">
+                <label for="plate2"> Butter Chicken With Mixed Vegetables </label><br>
+                <input type="checkbox" name="plate3">
+                <label for="plate3"> Sundried Tomato and Basil Pesto Chicken Linguini </label><br>
+                <input type="checkbox" name="plate4">
+                <label for="plate2"> Roast Chicken and Homemade Pan Gravy </label><br>
+                {{!-- 2nd ROW --}}
+                <input type="checkbox" name="plate5">
+                <label for="plate5"> Garlic Butter Salmon (Contains Dairy) </label><br>
+                <input type="checkbox" name="plate6">
+                <label for="plate6"> Beef Gratin </label><br>
+                <input type="checkbox" name="plate7">
+                <label for="plate7"> Pan Roast Mushroom Chicken </label><br>
+                <input type="checkbox" name="plate8">
+                <label for="plate8"> Coconut Curry Shrimp </label><br><br><br>
+                <input type="submit" value="ADD TO ORDER" class="buttonpink">
+            </form>
+        </div>
+    </section>
+</body>

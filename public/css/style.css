@@ -1,0 +1,192 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* HEADER */
+#navbar
+{
+    text-align: right;
+    background: #f06;
+    padding: 1rem;
+}
+header img
+{
+    float: left;
+    width: 5.5%;
+    padding-left: 30px;    
+}
+#navbar ul
+{
+    list-style: none;
+}
+#navbar li
+{
+    display: inline-block;
+    padding: 15px 30px 10px 10px;
+}
+.list
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#navbar .list:hover
+{
+    color: #000;
+    background: #fff;
+    border-bottom: 3px solid #55d6aa;
+    padding: 10px;
+}
+.dropbtn
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    background: none;
+}
+.dropbtn:hover
+{
+    color: #000;
+    background: #fff;
+    border-bottom: 3px solid #55d6aa;
+    padding: 10px;
+}
+.myAcc
+{
+    position: relative;
+    display: inline-block;
+}
+.dropdown
+{
+    display: none;
+    position: absolute;
+    background: #ccc;
+    min-width: 150px;
+    z-index: 1;
+}
+.dropdown a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    display: block;
+    padding: 0 10px 10px 0;
+}
+.dropdown a:hover
+{
+    background: #ccc;
+    border-bottom: 3px solid #55d6aa;
+}
+.myAcc:hover .dropdown
+{
+    display: block;
+}
+
+/* BUTTONS */
+a 
+{
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: none;
+}
+.buttonpink
+{
+    background: #f06;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.buttonwhite
+{
+    background: #fff;
+    color: #f06;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid #f06;
+    text-transform: uppercase;
+}
+
+/* FOOTER */
+#foot1
+{
+    margin-top: 20px;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px 200px;
+    color: #999;
+}
+.footer
+{
+    padding: 0 20px;
+}
+.footer h4
+{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.footer a
+{
+    color: #999;
+}
+.footer #col1
+{
+    list-style: none;
+}
+.footer #col1 li
+{
+    padding-bottom: 10px;
+    
+}
+.footer #col2
+{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer #col2 li
+{
+    padding-bottom: 10px;
+}
+.footer #col3
+{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.footer #col3 li
+{
+    padding-bottom: 10px;
+}
+.footer #col3 #col3l2
+{
+    list-style: square;
+}
+
+#foot2
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px 200px 0 200px;
+    color: #999;
+}
+.footer2
+{
+    padding: 0 10px;
+}
+.footer2 a img
+{
+   margin: 0 15px;
+   padding: 25px;
+}

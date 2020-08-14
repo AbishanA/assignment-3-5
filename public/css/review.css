@@ -1,0 +1,23 @@
+#review
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 10px;
+}
+#review > h3
+{
+    font-size: 28px;
+    font-weight: 900;
+}
+h5, h6, p
+{
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+}
+p
+{
+    font-weight: bolder;
+}

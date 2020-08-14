@@ -1,0 +1,37 @@
+#build
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 20px 40px;
+}
+.mealImg
+{
+    padding-top: 20px;
+    height: 375px;
+}
+.mealName
+{
+    font-weight: 900;
+    font-size: 30px;
+}
+.price
+{
+    font-weight: 900;
+    font-size: 20px;
+    color: #f06;
+}
+.desc1, .desc2, .desc3, .desc4, .desc5
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+.numMeals, .numSoups, .mealoption
+{
+    font-weight: 600;
+    font-size: 18px;
+}
+.options > label
+{
+    font-weight: lighter;
+    font-size: 18px;
+}

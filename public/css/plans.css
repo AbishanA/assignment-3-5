@@ -1,0 +1,77 @@
+#mp1
+{
+    background-image: url("../img/LiveFit.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10em;
+    text-align: center;
+}
+#mp2
+{
+    background: #55d6aa;
+    text-align: center;
+    padding: 40px;
+}
+#mp2 #vp1
+{
+    padding: 10px;
+    font-size: 30px;
+}
+#mp2 #vp2 
+{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+#mp3
+{
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    border-bottom: 10px solid #55d6aa;
+}
+#mp4
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px 350px;
+    border-bottom: 10px solid #55d6aa;
+}
+#mp4 .packages
+{
+    padding: 10px;
+    text-align: center;
+}
+#mp4 .plansTitle
+{
+    font-weight: 900;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+#mp4 .plansText 
+{
+    padding-bottom: 20px;
+}
+#mp4 .buttonpink
+{
+    font-size: 14px;
+}
+#mp4 .priceFont
+{
+    font-style: italic;
+    
+}
+#mp4 .planPrice
+{
+    padding-top: 20px;
+    
+}
+#mp5
+{
+    text-align: center;
+    padding: 50px;
+}
+#mp5 h2
+{
+    padding: 20px;
+}

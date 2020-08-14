@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/{{style}}">
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <header>
+        <a href="/">
+            <img src="/img/Logo.png" alt="">
+        </a>
+        <nav id="navbar">
+            <ul>
+                <li><a href="/" class="list"> Home </a></li>
+                <li><a href="/mealpackages" class="list"> Package Plans </a></li>
+                <div class="myAcc">
+                    <button class="dropbtn">Account</button>
+                    <div class="dropdown">
+                        <a href="/account/register"> Register </a>
+                        <a href="/account/login"> Login </a>
+                        <a href="/account/dashboard">Dashboard</a>
+                    </div>
+                </div>
+                <li><a href="/cart" class="list">Shopping Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{{body}}}
+    </main>
+</body>
+<footer>
+    <section id="foot1">
+        <!-- About -->
+        <div class="footer">
+            <h4> About Livefit </h4>
+            <ul id="col1">
+                <li>
+                    <a href="#"> Affiliates </a>
+                </li>
+                <li>
+                    <a href="#"> Gift Card </a>
+                </li>
+                <li>
+                    <a href="#"> Student Discounts </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Help -->
+        <div class="footer">
+            <h4> Help &amp; Support </h4>
+            <ul id="col2">
+                <li>
+                    <a href="#"> FAQ </a>
+                </li>
+                <li>
+                    <a href="#"> Terms &amp; Conditions </a>
+                </li>
+                <li>
+                    <a href="#"> Contact Us </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Our Menu -->
+        <div class="footer">
+            <h4> Our Menu </h4>
+            <ul id="col3">
+                <li>
+                    <a href="/mealpackages"> Meal Packages </a>
+                </li>
+                <li>
+                    <a href="#"> Individual Meals </a>
+                </li>
+                <ul id="col3l2">
+                    <li>
+                        <a href="#"> &nbsp; Breakfast Meals </a>
+                    </li>
+                    <li>
+                        <a href="#"> &nbsp; Lunch &amp; Dinner Meals </a>
+                    </li>
+                    <li>
+                        <a href="#"> &nbsp; Snacks, Drinks &amp; More </a>
+                    </li>
+                    <li>
+                        <a href="#"> &nbsp; Build your own meals </a>
+                    </li>
+                    <li>
+                        <a href="#"> &nbsp; Kids Meals </a>
+                    </li>
+                    <li>
+                        <a href="#"> &nbsp; Smoothies Bowls &amp; Smoothies </a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+        <!-- Newsletter -->
+        <div class="footer">
+            <h4> Sign up for newsletter </h4>
+            <p> Enter you email for a chance to win a $150 LiveFit e-gift card! </p><br>
+            <form action="#">
+                <input type="email" placeholder="Enter your email"><br><br>
+                <input type="submit" class="buttonpink" value="JOIN LIVEFIT">
+            </form>
+        </div>
+        <!-- App -->
+        <div class="footer">
+            <h4> Livefit App </h4>
+            <a href="#">
+                <img src="/img/Apple.png" alt="Apple Logo" id="apple">
+            </a>
+            <a href="#">
+                <img src="/img/Android.png" alt="Android Logo" id="android">
+            </a>
+        </div>
+    </section>
+</footer>
+<footer id="foot2">
+    <div class="footer2">
+        <p> @2020 LiveFit North America Inc. </p>
+    </div>
+    <div class="footer2">
+        <p> Icons made by
+            <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from
+            <a href="https://www.flaticon.com/" title="Flaticon">
+                www.flaticon.com </a>
+        </p>
+        <a href="facebook.com">
+            <img src="/img/Contact/facebook.png" alt="Facebook" width="20" height="20">
+        </a>
+        <a href="instagram.com">
+            <img src="/img/Contact/instagram.png" alt="Instagram" width="20" height="20">
+        </a>
+        <a href="#">
+            <img src="/img/Contact/email.png" alt="Mail" width="20" height="20">
+        </a>
+    </div>
+    <div class="footer2">
+        <img src="/img/Payment/Amex.svg" alt="">
+        <img src="/img/Payment/Apple Pay.svg" alt="">
+        <img src="/img/Payment/Google Pay.svg" alt="">
+        <img src="/img/Payment/Mastercard.svg" alt="">
+        <img src="/img/Payment/Shop Pay.svg" alt="">
+        <img src="/img/Payment/Visa.svg" alt="">
+    </div>
+</footer>
+<script src="/js/script.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+    crossorigin="anonymous"></script>
+
+</html>

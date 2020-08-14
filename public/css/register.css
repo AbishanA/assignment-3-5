@@ -1,0 +1,40 @@
+/* REGISTER */
+div
+{
+    padding: 10px 50px;
+    font-size: 24px;
+}
+div label
+{
+    font-size: 20px;
+}
+div input 
+{
+    font-size: 16px;
+    font-weight: 900;
+}
+
+#fname 
+{
+    width: 200px;
+    border: 1px solid #f06;
+    border-left: 4px solid #f06;
+}
+#lname 
+{
+    width: 200px;
+    border: 1px solid #f06;
+    border-left: 4px solid #f06;
+}
+#email 
+{
+    width: 200px;
+    border: 1px solid #f06;
+    border-left: 4px solid #f06;
+}
+#pass 
+{
+    width: 200px;
+    border: 1px solid #f06;
+    border-left: 4px solid #f06;
+}

@@ -1,0 +1,37 @@
+<body>
+    <div>
+        <br><br>
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/mealpackages">Meals </a></li>
+            <li class="active">Gluten Free</li>
+        </ol>
+    </div>
+    <section id="build">
+        <div class="row">
+            <img src="/img/Plans/plan7.jpg" alt="..." class="mealImg">
+        </div>
+        <div>
+            <h3 class="mealName"> Gluten Free Package </h3>
+            <h6 class="price">$117.00</h6>
+            <p class="desc1">The Gluten-Free Package comes with a variety of our best selling meals from the Lunch &amp;
+                Dinner menu.</p>
+            <p class="desc2">Each meal in this package contains 1 cup of Carbohydrates, 1 cup of Vegetables and 5oz of
+                meat protein (unless you add "protein plus" to your order). You can find the nutritional information for
+                your meals on the Nutritional Information tab on our website.</p>
+            <p class="desc3">**PLEASE NOTE THAT WE DO HAVE GLUTEN IN OUR FACILITIES** </p>
+            <br><br>
+            <form method="POST" action="/cart" class="options">
+                <p class="numMeals">How many meals did you want in your package?</p>
+                <select name="numMeals" id="numMeals">
+                    <option value="10">10 Meals</option>
+                    <option value="12">12 Meals</option>
+                    <option value="15">15 Meals</option>
+                    <option value="20">20 Meals</option>
+                    <option value="24">24 Meals</option>
+                </select><br><br>
+                <input type="submit" value="ADD TO ORDER" class="buttonpink">
+            </form>
+        </div>
+    </section>
+</body>

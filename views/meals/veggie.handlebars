@@ -1,0 +1,34 @@
+<body>
+    <div>
+        <br><br>
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li><a href="/mealpackages">Meals </a></li>
+            <li class="active">Weight Loss</li>
+        </ol>
+    </div>
+    <section id="build">
+        <div class="row">
+            <img src="/img/Plans/plan6.jpg" alt="..." class="mealImg">
+        </div>
+        <div>
+            <h3 class="mealName"> Weight Loss Package </h3>
+            <h6 class="price">$159.00</h6>
+            <p class="desc1">This package includes a variety of 15 vegetarian-friendly meals including veggie chicken, veggie beef, veggie ground beef, tofu, a variety of fresh vegetables, seasonings, sauces and carbohydrates including rice, yams, pasta, butternut ravioli, potatoes and quinoa. Please note that the meals you receive may not be exactly as the ones shown in the photo.</p>
+            <p class="desc2">This package contains breakfast, lunch and dinner style meals!</p>
+            <p class="desc3">Interested in Vegan instead? Check out our <span><a href="/buildorder/5">Vegan Package</a></span></p>
+            <br><br>
+            <form method="POST" action="/cart" class="options">
+                <p class="numMeals">How many meals did you want in your package?</p>
+                <select name="numMeals" id="numMeals">
+                    <option value="10">10 Meals</option>
+                    <option value="12">12 Meals</option>
+                    <option value="15">15 Meals</option>
+                    <option value="20">20 Meals</option>
+                    <option value="24">24 Meals</option>
+                </select><br><br>
+                <input type="submit" value="ADD TO ORDER" class="buttonpink">
+            </form>
+        </div>
+    </section>
+</body>

@@ -1,0 +1,77 @@
+#home1
+{
+    background-image: url("../img/LiveFit.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 12em;
+    text-align: center;
+}
+#home1 h1
+{
+    font-size: 72px;
+}
+#list1
+{
+    list-style: none;
+}
+#list1 li
+{
+    display: inline-block;
+    padding: 4em 10px;
+    font-size: 18px;
+}
+#title1
+{
+    text-align: center;
+    padding: 20px;
+    background: #f06;
+}
+#home2
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 50px;
+    text-align: center;
+}
+#home3
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 100px;
+    text-align: center;
+}
+#choice
+{
+    text-align: center;
+    border-top: 10px solid #55d6aa;
+    padding: 20px;
+}
+.meals
+{
+    padding: 20px;
+}
+#menu
+{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 10px solid #55d6aa;
+}
+#home4
+{
+    background-image: url("../img/Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    text-align: center;
+    padding: 12em;
+    color: #fff;
+}
+#home4 h1
+{
+    padding: 20px;
+    font-size: 72px;
+}
+#home4 h3
+{
+    padding: 5px;
+}
